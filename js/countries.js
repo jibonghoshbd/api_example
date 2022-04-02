@@ -38,7 +38,8 @@ const dispalyCountrieDetails = countire => {
     div.innerHTML = `
         <h2>Countrie Diteils</h2>
         <h3>Name: ${countire.name}</h3> 
-        <h4>Region: ${countire.region}</h4> 
+        <h4>strRegion: ${countire.region}</h4> 
+        <h4>strArea: ${countire.strArea}</h4> 
         <img class="img-fluid rounded mt-4" src="${countire.flag}"/>
     `
     countriDitels.appendChild(div)
